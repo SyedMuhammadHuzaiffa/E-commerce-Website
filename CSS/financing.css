@@ -1,0 +1,6 @@
+.im {
+    padding: 320px;
+    background: url('/Assets/financingbgtop.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
