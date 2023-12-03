@@ -1,0 +1,65 @@
+/* Add your cart page specific styles here */
+
+.cart {
+    border: 1px solid #ddd;
+    /* Add a border to the entire cart */
+    padding: 100px 0;
+    border-radius: 20px;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    /* Add a border to each cart item */
+    padding: 10px;
+}
+
+.cart-item img {
+    max-width: 300px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    /* Add a border to the item image */
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.cart-summary {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    /* Add a border to the summary */
+}
+
+.cart-summary h4 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #555;
+    /* Add a border under the heading */
+    padding-bottom: 10px;
+}
+
+.cart-summary p {
+    margin-bottom: 10px;
+}
+
+.cart-summary hr {
+    border-color: #555;
+    margin-top: 10px;
+    /* Adjust spacing */
+    margin-bottom: 10px;
+    /* Adjust spacing */
+}
+
+/* Style the remove button */
+.cart-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
